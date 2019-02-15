@@ -1,13 +1,14 @@
-Math.divisors=function(n){
-    var answer=[], divisor=1;
-  
-    while(n>=divisor){
-      if(n%divisor===0){
-        answer.push(divisor)
-      }
-  
-      divisor++
+Math.divisors = function(n) {
+  var answer = [];
+  var divisor = 1;
+
+  while (n >= divisor) {
+    if (n % divisor === 0) {
+      answer.push(divisor);
     }
-  
-    return answer;
+
+    divisor++;
   }
+
+  return answer;
+};
