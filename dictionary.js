@@ -8,5 +8,6 @@ String.prototype.dictionary=function(){
 			answer[character]=1;
 		}
 	});
+	
 	return answer;
 };
