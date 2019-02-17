@@ -1,3 +1,3 @@
 Array.prototype.last=function(){
-  return this.reverse()[0]
+  return this.map(function(element){return element}).reverse()[0]
 }
