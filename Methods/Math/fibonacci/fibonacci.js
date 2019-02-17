@@ -1,0 +1,3 @@
+Math.fibonacci=function(n){
+
+}
