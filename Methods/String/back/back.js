@@ -1,3 +1,3 @@
 String.prototype.back = function(){
-  return this.split("").reverse().join("");
+  return this.split("").map(function(element){return element}).reverse().join("");
 }
