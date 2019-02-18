@@ -1,3 +1,5 @@
-Array.prototype.drop = function(quantity){
-  return this.slice(quantity, this.length)
+//Returns n elements of a given array
+
+Array.prototype.drop = function(n){
+  return this.slice(n, this.length);
 }
