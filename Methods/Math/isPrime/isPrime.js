@@ -1,4 +1,4 @@
-//Returns a boolean object
+//Returns true if a number is prime and false if it's not. 0 and 1 are not considered primes. 
 
 Math.isPrime = function(n) {
   if (n < 2) {
