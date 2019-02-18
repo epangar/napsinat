@@ -1,4 +1,4 @@
-Math.diceOpen=function(number, sides){
+Math.openDice=function(number, sides){
     var arr=[];
 
     for(var i=0; i<number; i++){
