@@ -1,8 +1,22 @@
+//Returns the sum of the elements of an array with all the numbers between start and end 
+
 Math.rangeSum=function(start,end){
 
-    return  [...Array(end-start+1).keys()].map(function(e){
-      return e+start;
-    }).reduce(function(a,b){
+  var answer=[]
+
+  if(end>=start){
+    for(var i=start; i<=end; i++){
+      answer.push(i)
+    }
+
+  } else {
+    for(var i=start; i>=end; i--){
+      answer.push(i)
+    }
+
+  }
+
+  return answer.reduce(function(a,b){
         return a+b;
     });
   }
