@@ -1,6 +1,5 @@
 Math.diceOpen=function(number, sides){
     var arr=[];
-    //var roll=Math.floor(Math.random()*sides+1);
 
     for(var i=0; i<number; i++){
         var roll=Math.floor(Math.random()*sides+1);
