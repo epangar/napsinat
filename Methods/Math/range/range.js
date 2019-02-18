@@ -2,7 +2,19 @@
 
 Math.range=function(start,end){
 
-  return  [...Array(end-start+1).keys()].map(function(e){
-    return e+start;
-  });
+  var answer=[]
+
+  if(end>=start){
+    for(var i=start; i<=end; i++){
+      answer.push(i)
+    }
+
+  } else {
+    for(var i=start; i>=end; i--){
+      answer.push(i)
+    }
+
+  }
+
+  return answer;
 }
