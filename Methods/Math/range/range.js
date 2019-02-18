@@ -1,4 +1,4 @@
-//Returns an array with all the numbers between start and end in ascending order
+//Returns an array with all the numbers between start and end 
 
 Math.range=function(start,end){
 
