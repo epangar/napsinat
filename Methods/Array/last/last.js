@@ -1,3 +1,5 @@
+//Returns the last element of an array
+
 Array.prototype.last=function(){
-  return this.map(function(element){return element}).reverse()[0]
+  return this[this.length-1]
 }

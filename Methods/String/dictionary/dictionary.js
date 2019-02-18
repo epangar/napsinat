@@ -1,3 +1,5 @@
+//Returns an object with all the ocurrences of characters on a string
+
 String.prototype.dictionary = function() {
   var answer = {};
 

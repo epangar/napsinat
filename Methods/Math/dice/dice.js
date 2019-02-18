@@ -1,3 +1,5 @@
+//Returns an array 
+
 Math.dice=function(number, sides){
   var arr=[];
 

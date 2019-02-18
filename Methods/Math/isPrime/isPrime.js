@@ -1,3 +1,5 @@
+//Returns a boolean object
+
 Math.isPrime = function(n) {
   if (n < 2) {
     return false;
