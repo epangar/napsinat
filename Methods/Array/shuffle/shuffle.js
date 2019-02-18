@@ -1,3 +1,5 @@
+//Shuffles the content of an array
+
 Array.prototype.shuffle = function(){
 
     var answer=[], arr=this, l=arr.length ;
