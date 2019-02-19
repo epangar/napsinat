@@ -1,4 +1,8 @@
-var _=function methods(){
+var _=(function methods(){
+
+    'use strict';
+
+    var methods = {}
 
     //Array methods
     var drop = require("../src/Methods/Array/drop/drop");
@@ -32,5 +36,7 @@ var _=function methods(){
     var last = require("../src/Methods/String/last/last");
     var unicode = require("../src/Methods/String/unicode/unicode");
     
-}
+    
+    
+})
 
