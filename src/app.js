@@ -24,7 +24,6 @@ var _=function methods(){
     var rangeSquare = require("../src/Methods/Math/rangeSquare/rangeSquare");
     var rangeSum = require("../src/Methods/Math/rangeSum/rangeSum");
     
-    
 
     //String methods
     var back = require("../src/Methods/String/back/back");
@@ -33,7 +32,5 @@ var _=function methods(){
     var last = require("../src/Methods/String/last/last");
     var unicode = require("../src/Methods/String/unicode/unicode");
     
-
 }
 
-console.log(_())
