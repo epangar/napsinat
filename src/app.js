@@ -1,9 +1,3 @@
-var _=(function methods(){
-
-    'use strict';
-
-    var methods = {}
-
     //Array methods
     var drop = require("../src/Methods/Array/drop/drop");
     var first = require("../src/Methods/Array/first/first");
@@ -37,6 +31,4 @@ var _=(function methods(){
     var unicode = require("../src/Methods/String/unicode/unicode");
     
     
-    
-})
-
+// module.exports=app;
