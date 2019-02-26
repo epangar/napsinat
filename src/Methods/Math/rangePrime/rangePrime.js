@@ -11,4 +11,3 @@ Math.rangePrime=function(start,end){
                                 })
 }
 
-console.log(Math.rangePrime(1,100))
