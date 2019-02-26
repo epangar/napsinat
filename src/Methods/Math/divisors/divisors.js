@@ -1,6 +1,6 @@
 //Returns an array of divisors of a given number
 
-Math.divisors = function(n) {
+Math.divisors = function (n) {
   var answer = [];
   var divisor = 1;
 
