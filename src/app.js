@@ -20,6 +20,7 @@ var fibonacci = require("../src/Methods/Math/fibonacci/fibonacci");
 var isPrime = require("../src/Methods/Math/isPrime/isPrime");
 var isSquare = require("../src/Methods/Math/isSquare/isSquare");
 var openDice = require("../src/Methods/Math/openDice/openDice");
+var primeFactors = require("../src/Methods/Math/primeFactors/primeFactors")
 var range = require("../src/Methods/Math/range/range");
 var rangeSquare = require("../src/Methods/Math/rangeSquare/rangeSquare");
 var rangeSum = require("../src/Methods/Math/rangeSum/rangeSum");

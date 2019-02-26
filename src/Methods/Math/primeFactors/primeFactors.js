@@ -5,16 +5,16 @@ var isPrime = require("../isPrime/isPrime")
 Math.primeFactors = function (n) {
     var answer = [];
     var divisor = 2;
-
-    while (n >= divisor) {
+	debugger
+    while(n>1){
         if(Math.isPrime(divisor) && n%divisor===0){
+            n/=divisor;
             answer.push(divisor)
+        } else {
+            divisor++;
         }
-        
-        divisor++
     }
 
     return answer;
 }
 
-console.log(Math.primeFactors(50))
