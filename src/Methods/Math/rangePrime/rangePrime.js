@@ -8,6 +8,6 @@ Math.rangePrime=function(start,end){
                                   if(Math.isPrime(number)){
                                     return number;
                                   }
-                                })
+                                });
 }
 
