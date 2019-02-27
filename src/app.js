@@ -35,6 +35,7 @@ var dictionary = require("../src/Methods/String/dictionary/dictionary");
 var first = require("../src/Methods/String/first/first");
 var jargon = require("../src/Methods/String/jargon/jargon");
 var last = require("../src/Methods/String/last/last");
+var shuffle = require("../src/Methods/String/shuffle/shuffle");
 var unicode = require("../src/Methods/String/unicode/unicode");
 
 
