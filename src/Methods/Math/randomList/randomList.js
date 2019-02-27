@@ -18,4 +18,3 @@ Math.randomList=function(n, minimum, maximum){
     return answer;
 }
 
-console.log(Math.randomList(20, 5,5))
