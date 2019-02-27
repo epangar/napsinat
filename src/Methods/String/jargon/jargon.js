@@ -3,13 +3,12 @@
 String.prototype.jargon=function(n){
   var answer="";
   
-  //Interval 33-126 161-767
+  //Interval 33-126
   
   for(i=0;i<n;i++){
-    answer+=String.fromCharCode(i)
-    console.log(i,String.fromCharCode(i))
+    var char=Math.floor(Math.random()*94)+33;
+    answer+=String.fromCharCode(char);
   }
 
   return this+answer;
 }
-
