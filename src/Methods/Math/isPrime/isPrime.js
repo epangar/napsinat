@@ -8,13 +8,19 @@ Math.isPrime = function (n) {
     var divisor = 2;
     var limit = Math.sqrt(n);
 
-    while (limit >= divisor) {
-      if (n % divisor === 0) {
-        return false;
+    if (limit === parseInt(limit)) {
+      return false;
+    } else {
+
+      while (limit >= divisor) {
+        if (n % divisor === 0) {
+          return false;
+        }
+        divisor++;
       }
-      divisor++;
     }
 
     return true;
   }
 };
+
