@@ -1,4 +1,5 @@
 var napsinat=require("./app")
 
 
-console.log(Math.isPrime(8))
+console.log([1,2,3,4,5].first())
+console.log("Hola".first())
