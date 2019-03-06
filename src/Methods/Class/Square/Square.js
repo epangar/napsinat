@@ -15,6 +15,3 @@ class Square{
         return parseFloat((this.side*Math.sqrt(2)).toFixed(2))
     }
 }
-
-var x= new Square(1)
-console.log(x.area(), x.perimeter(), x.diagonal())

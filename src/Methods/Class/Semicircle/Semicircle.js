@@ -1,0 +1,5 @@
+class Semicircle {
+    constructor(radius){
+        
+    }
+}

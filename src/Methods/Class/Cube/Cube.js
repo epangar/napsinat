@@ -4,7 +4,11 @@ class Cube {
     }
 
     volume(){
-        return Math.pow(this.side,3)
+        return Math.pow(this.side,3);
+    }
+
+    surface(){
+        return Math.pow(this.side,2)*6;
     }
 }
 
