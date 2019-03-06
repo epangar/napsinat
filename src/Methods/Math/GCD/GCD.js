@@ -1,0 +1,3 @@
+Math.GCD=function(input){
+
+}
