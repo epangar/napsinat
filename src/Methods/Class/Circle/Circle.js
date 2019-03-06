@@ -4,8 +4,8 @@ class Circle{
     }
 
     area(){
-        var areaValue=Math.PI*Math.pow(this.radius,2)
-        return parseFloat(areaValue.toFixed(2))
+        var areaValue=Math.PI*Math.pow(this.radius,2);
+        return parseFloat(areaValue.toFixed(2));
     }
 
     perimeter(){
