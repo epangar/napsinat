@@ -8,8 +8,12 @@ class Circle{
         return parseFloat(areaValue.toFixed(2));
     }
 
+    diameter(){
+        return this.radius*2;
+    }
+    
     perimeter(){
         var perimeterValue=2*Math.PI*this.radius;
-        return parseFloat(perimeterValue.toFixed(2))
+        return parseFloat(perimeterValue.toFixed(2));
     }
 }

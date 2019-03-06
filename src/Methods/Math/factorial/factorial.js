@@ -10,4 +10,3 @@ Math.factorial=function(number){
     return answer;
 }
 
-console.log(Math.factorial(60))

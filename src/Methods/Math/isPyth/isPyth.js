@@ -1,0 +1,5 @@
+//
+
+Math.isPyth=function(array){
+
+}
