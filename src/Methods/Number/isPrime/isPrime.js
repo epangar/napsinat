@@ -1,6 +1,4 @@
-//Returns true if a number is prime and false if it's not. 0 and 1 are not considered primes. 
-
-Math.isPrime = function (n) {
+Number.prototype.isPrime = function (n) {
   n = Math.abs(n);
   if (n < 2) {
     return false;
@@ -24,4 +22,6 @@ Math.isPrime = function (n) {
   }
 };
 
-console.log(Math.isPrime(8))
+var x=5, y=8
+console.log(y.isPrime())
+console.log(x.isPrime())
