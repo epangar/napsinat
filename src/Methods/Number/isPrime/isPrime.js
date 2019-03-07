@@ -1,5 +1,5 @@
-Number.prototype.isPrime = function (n) {
-  n = Math.abs(n);
+Number.prototype.isPrime = function() {
+  var n = Math.abs(this);
   if (n < 2) {
     return false;
   } else {
@@ -21,7 +21,3 @@ Number.prototype.isPrime = function (n) {
     return true;
   }
 };
-
-var x=5, y=8
-console.log(y.isPrime())
-console.log(x.isPrime())
