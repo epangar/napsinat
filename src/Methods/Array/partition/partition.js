@@ -3,7 +3,7 @@ Array.prototype.partition=function(condition){
     debugger
     console.log(this)
     this.forEach(function(element){
-        if(condition){
+        if(condition(element)){
             trueArray.push(element)
         } else {
             falseArray.push(element)
@@ -13,5 +13,5 @@ Array.prototype.partition=function(condition){
     return [trueArray,falseArray]
 }
 
-var x=[1,2,3,4,5].partition()
+var x=[1,2,3,4,5].partition(function(e){return e%2===0})
 console.log(x)
