@@ -2,7 +2,6 @@
 2d Matrix
 Array.pluck
 Array intersection
-partition
 zip
 
 Built in methods
@@ -18,4 +17,6 @@ MATH
 NUMBER
 
 STRING
+
+OBJECT
 */

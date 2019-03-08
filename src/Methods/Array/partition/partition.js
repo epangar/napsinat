@@ -1,6 +1,6 @@
 Array.prototype.partition=function(condition){
     var trueArray=[], falseArray=[];
-    debugger
+    
     console.log(this)
     this.forEach(function(element){
         if(condition(element)){
