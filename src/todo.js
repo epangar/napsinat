@@ -6,8 +6,6 @@ zip
 
 Built in methods
 
-Test Number.isPrime
-
 ARRAY
 
 CLASS
