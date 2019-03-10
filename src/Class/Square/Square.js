@@ -7,11 +7,11 @@ class Square{
         return Math.pow(this.side,2)
     }
 
-    perimeter(){
-        return this.side*4
+    diagonal(){
+        return this.side*Math.sqrt(2)
     }
 
-    diagonal(){
-        return parseFloat((this.side*Math.sqrt(2)).toFixed(2))
+    perimeter(){
+        return this.side*4
     }
 }

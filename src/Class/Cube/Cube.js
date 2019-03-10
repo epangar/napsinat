@@ -3,12 +3,17 @@ class Cube {
         this.side=side;
     }
 
-    volume(){
-        return Math.pow(this.side,3);
+    spaceDiagonal(){
+        return this.side*Math.sqrt(3)
     }
 
     surface(){
         return Math.pow(this.side,2)*6;
     }
+
+    volume(){
+        return Math.pow(this.side,3);
+    }
+
 }
 

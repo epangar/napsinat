@@ -4,8 +4,7 @@ class Circle{
     }
 
     area(){
-        var areaValue=Math.PI*Math.pow(this.radius,2);
-        return parseFloat(areaValue.toFixed(2));
+        return Math.PI*Math.pow(this.radius,2);
     }
 
     diameter(){
@@ -13,7 +12,6 @@ class Circle{
     }
     
     perimeter(){
-        var perimeterValue=2*Math.PI*this.radius;
-        return parseFloat(perimeterValue.toFixed(2));
+        return 2*Math.PI*this.radius;
     }
 }
