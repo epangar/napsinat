@@ -17,6 +17,12 @@
     "url": "https://github.com/epangar/napsinat/issues"
   },
   "homepage": "https://github.com/epangar/napsinat#readme",
-  "devDependencies": {},
-  "dependencies": {}
+  "devDependencies": {
+    "eslint": "^5.15.1",
+    "eslint-config-google": "^0.12.0"
+  },
+  "dependencies": {
+    "lodash": "^4.17.11",
+    "underscore": "^1.9.1"
+  }
 }
