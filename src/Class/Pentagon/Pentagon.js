@@ -3,5 +3,9 @@ class Pentagon{
     this.side=side;
   }
 
+  area(){
+    
+  }
+
   
 }
