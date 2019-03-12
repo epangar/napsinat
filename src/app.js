@@ -1,4 +1,3 @@
-/* eslint-disable no-unused-vars */
 
 //Array methods
 var drop = require("../src/Methods/Array/drop/drop");
