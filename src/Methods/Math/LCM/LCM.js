@@ -9,7 +9,7 @@ Math.LCM=function(array){
       var multiple=first*multiplier;
       debugger
       for(var i=0;i<array.length;i++){
-        if(array[i]%multiple!==0){
+        if(multiple%array[i]!==0){
           answer=[];
           break
         } else {
