@@ -1,3 +1,6 @@
+/*Returns a sample of n random elements of the array. If no input is
+given, it returns a single random element*/
+
 Array.prototype.sample=function(number){
     
     if(!number){

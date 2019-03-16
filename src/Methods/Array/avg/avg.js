@@ -1,3 +1,5 @@
+/*Returns the average of the elements of the array*/ 
+
 Array.prototype.avg=function(){
     if(this.length<2){
         return this;
