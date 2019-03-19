@@ -3,6 +3,7 @@
 Array.pluck
 Array intersection
 zip
+isAlpha()
 
 Built in methods
 

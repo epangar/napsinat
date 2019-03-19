@@ -5,7 +5,7 @@ Array.prototype.avg=function(){
         return this;
     } else {
         return this.reduce(function(a,b){
-                                return a+b
+                                return a+b;
                                 })/this.length;
     }
 }
