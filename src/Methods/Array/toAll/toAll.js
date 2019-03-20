@@ -1,7 +1,7 @@
-Array.prototype.toAll=function(fu){
+Array.prototype.toAll=function(callback){
   var answer=[]
   this.forEach(function(element,position){
-      answer[position]= fu(element)
+      answer[position]= callback(element)
   })
   return answer
 }
