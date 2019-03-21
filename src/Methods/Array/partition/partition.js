@@ -1,3 +1,5 @@
+/*Split list into two arrays: one whose elements all satisfy predicate and one whose elements all do not satisfy predicate. predicate is transformed through iteratee to facilitate shorthand syntaxes.*/
+
 Array.prototype.partition=function(condition){
     var trueArray=[], falseArray=[];
     
