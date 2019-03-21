@@ -1,11 +1,20 @@
 /*
+
+---------
+TO INVESTIGATE
 2d Matrix
+3d Matrix
 Array.pluck
 Array intersection
 zip
+Built in methods
+
+---------
+TO DEVELOP
 isAlpha()
 
-Built in methods
+---------
+TO TEST
 
 ARRAY
 
