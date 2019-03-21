@@ -1,4 +1,4 @@
-/*Returns the average of the elements of the array*/ 
+/*Returns the average of the elements of a given array*/ 
 
 Array.prototype.avg=function(){
     if(this.length<2){
