@@ -1,5 +1,5 @@
-//Iterates over an array until a condition is met; at that moment it stops 
-//and returns the section of the array so far.
+/*Iterates over an array until a condition is met; at that moment it stops 
+and returns the section of the array so far.*/
 
 Array.prototype.eachUntil=function(callback){
   var answer=[];
@@ -13,5 +13,5 @@ Array.prototype.eachUntil=function(callback){
   }
 }
 
-var x=[1,2,3,4,5,6,7,8,9].eachUntil(function(element){return element===7})
+var x=[1,2,3,4,5,6,7,8,9].eachUntil(function(element){return element%3==0})
 console.log(x)

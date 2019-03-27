@@ -1,4 +1,4 @@
-//Returns an object with the index of each of the elements
+//Returns an object with the index of each of elements
 
 Array.prototype.dictIndex=function(){
 
@@ -15,6 +15,3 @@ Array.prototype.dictIndex=function(){
   return answer
 
 }
-
-var x=[1,2,3,4,5,6,7,8,1,2,3,4,5].reverse().dictIndex()
-console.log(x)
