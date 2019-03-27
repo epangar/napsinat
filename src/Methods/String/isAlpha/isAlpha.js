@@ -1,6 +1,6 @@
 String.prototype.isAlpha=function(){
 
-    return this.split("").every(function(c){return c===/[a-zA-Z]/})
+    return this.split("").map(function(c){return c.match(/[a-zA-Z]/)}).every((e)=>e===true)
 }
 
 console.log("Hello".isAlpha())

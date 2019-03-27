@@ -1,4 +1,4 @@
-//Returns the index of the first element which
+//Returns the index of the first element which returns true for the condition
 
 Array.prototype.findIndex=function(callback){
 
