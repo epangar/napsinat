@@ -1,3 +1,5 @@
+//Applies a function to all the elemnts of an array and return a new array
+
 Array.prototype.toAll=function(callback){
   var answer=[]
   this.forEach(function(element,position){

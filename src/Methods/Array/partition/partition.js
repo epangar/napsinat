@@ -2,8 +2,7 @@
 
 Array.prototype.partition=function(condition){
     var trueArray=[], falseArray=[];
-    
-    console.log(this)
+
     this.forEach(function(element){
         if(condition(element)){
             trueArray.push(element)
