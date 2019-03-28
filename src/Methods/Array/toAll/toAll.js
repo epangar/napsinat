@@ -3,7 +3,7 @@
 Array.prototype.toAll=function(callback){
   var answer=[]
   this.forEach(function(element,position){
-      answer[position]= callback(element)
+      answer[position]= callback(element);
   })
   return answer
 }

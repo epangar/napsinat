@@ -21,3 +21,6 @@ Number.prototype.isPrime = function() {
     return true;
   }
 };
+
+n=new Number(89)
+console.log(n.isPrime(10))
