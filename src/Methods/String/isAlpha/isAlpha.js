@@ -1,6 +1,9 @@
+//Returns a boolean; true if every character in the string is alphabetic, false if it's not
+
 String.prototype.isAlpha=function(){
-
-    return this.split("").map(function(c){return c.match(/[a-zA-Z]/)}).every((e)=>e===true)
+                        return this.split("").map(function(c){
+                                                    return /[a-zA-Z]/.test(c);
+                                                }).every(function(e){
+                                                    return e===true;
+                                                })
 }
-
-console.log("Hello".isAlpha())

@@ -1,4 +1,4 @@
-//Returns a FIbonacci series 
+//Returns a Fibonacci series 
 
 Math.fibonacci = function (first, second, total) {
   var arr = [first, second];

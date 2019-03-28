@@ -11,7 +11,8 @@ Built in methods
 
 ---------
 TO DEVELOP
-isAlpha()
+LCM
+GCD
 
 ---------
 TO TEST

@@ -1,4 +1,4 @@
-//Returns an array 
+//Returns an array of the given random values, as if a group of dice were thrown, and its sum. 
 
 Math.dice=function(number, sides){
   var arr=[];
@@ -8,5 +8,5 @@ Math.dice=function(number, sides){
     arr.push(roll);
   }
   var result=arr.reduce(function(a,b){return a+b});
-  return [result, arr];
+  return [arr, result];
 }
