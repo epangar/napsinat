@@ -35,3 +35,6 @@ Math.GCD=function(input){
 
 var n=Math.GCD([100,20,2000,5200])
 console.log(n)
+
+var n=Math.GCD(100,20,2000,5200)
+console.log(n)
