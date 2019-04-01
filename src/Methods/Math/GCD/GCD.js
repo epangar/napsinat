@@ -16,14 +16,25 @@ Math.GCD=function(input){
         for(key in obj){
             var list= obj[key]
             list=list.reverse()
+        }
+        
+        
+        var allKeys=(Object.values(obj)), firstKey=(Object.values(obj))[0]
+        for(j in firstKey){
+            var value=firstKey[j];
 
-            for(n in key){
-
+            if(allKeys.every(function(arr){return arr.includes(value)===true})){
+                return value
+            } else {
+                continue
             }
         }
         return obj;
     }
 }
 
-var n=Math.GCD([5,10,25])
+var n=Math.GCD([100,20,2000,5200])
+console.log(n)
+
+var n=Math.GCD(100,20,2000,5200)
 console.log(n)
