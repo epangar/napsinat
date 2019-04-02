@@ -1,3 +1,4 @@
+//Returns the Lesser Common Multiple of the given numbers
 Math.LCM=function(array){
   
   if(array.length<2){
@@ -24,4 +25,4 @@ Math.LCM=function(array){
   return answer;
   }
 }
-console.log(Math.LCM([3,6,9]))
+console.log(Math.LCM([3,2,10]))
