@@ -13,6 +13,8 @@ Built in methods
 TO DEVELOP
 LCM
 GCD
+---------
+TO DOCUMENT
 
 ---------
 TO TEST

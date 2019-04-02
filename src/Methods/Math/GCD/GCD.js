@@ -1,3 +1,5 @@
+//Returns the Greatest Common Divisor of the given numbers
+
 var divisors = require("../divisors/divisors")
 
 Math.GCD=function(input){
@@ -33,8 +35,6 @@ Math.GCD=function(input){
     }
 }
 
-var n=Math.GCD([100,20,2000,5200])
+var n=Math.GCD([30,15,3000,900])
 console.log(n)
 
-var n=Math.GCD(100,20,2000,5200)
-console.log(n)
