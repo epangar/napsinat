@@ -17,9 +17,7 @@
     "url": "https://github.com/epangar/napsinat/issues"
   },
   "homepage": "https://github.com/epangar/napsinat#readme",
-  "devDependencies": {
-    
-  },
+  "devDependencies": {},
   "dependencies": {
     "lodash": "^4.17.11",
     "underscore": "^1.9.1"

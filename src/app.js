@@ -1,4 +1,4 @@
-
+// class Napsinat{
 //Array methods
 var drop = require("../src/Methods/Array/drop/drop");
 var dropEnd = require("../src/Methods/Array/dropEnd/dropEnd");
@@ -37,13 +37,20 @@ var last = require("../src/Methods/String/last/last");
 var shuffle = require("../src/Methods/String/shuffle/shuffle");
 var unicode = require("../src/Methods/String/unicode/unicode");
 
+// }
 
-
-var myModule = {
+var Napsinat = {
     drop: drop,
     first: first,
     unicode: unicode,
     shuffle: shuffle
 }
 
-module.exports = myModule;
+// class Napsinat{
+//     constructor(){
+
+//     }
+// }
+
+
+

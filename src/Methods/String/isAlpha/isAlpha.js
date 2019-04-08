@@ -7,3 +7,5 @@ String.prototype.isAlpha=function(){
                                                     return e===true;
                                                 })
 }
+
+
