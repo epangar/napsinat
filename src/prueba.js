@@ -1,4 +1,4 @@
-var myModule=require("./app")
+import Napsinat from  './app'
 
 
 console.log([4,5,6,7].drop(2))
