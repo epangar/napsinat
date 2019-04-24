@@ -10,11 +10,14 @@ Math.randomList=function(n, minimum, maximum){
     var answer=[]
 
     for(i=0;i<n;i++){
+        
         var possibleResults = maximum-minimum+1;
         var number=Math.floor(Math.random()*possibleResults)+minimum;
         answer.push(number)
+        
     }
     
     return answer;
 }
 
+console.log(Math.randomList(15,1,15))
