@@ -6,6 +6,6 @@ Math.rangeCube=function(n){
   for(i=0;i<n;i++){
     answer.push(Math.pow(i,3))
   }
-
+ 
   return answer;
 }
