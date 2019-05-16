@@ -20,4 +20,4 @@ Math.randomList=function(n, minimum, maximum){
     return answer;
 }
 
-console.log(Math.randomList(15,1,15))
+//console.log(Math.randomList(15,1,15))

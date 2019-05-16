@@ -16,6 +16,7 @@ GCD
 ---------
 TO DOCUMENT
 
+Math.bases
 ---------
 TO TEST
 

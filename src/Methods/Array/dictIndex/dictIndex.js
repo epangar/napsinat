@@ -3,7 +3,7 @@
 Array.prototype.dictIndex=function(){
 
   var answer={}
-  debugger
+  
   for(var i=0; i< this.length;i++){
     var key=this[i]
     if(!answer[key]){
