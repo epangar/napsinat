@@ -20,6 +20,3 @@ Array.prototype.sample=function(number){
 
     }
 }
-
-console.log([1,2,3,4,5,6,7,8,9,0].sample())
-console.log([1,2,3,4,5,6,7,8,9,0].sample(4))

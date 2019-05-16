@@ -1,4 +1,5 @@
-//Returns an array of all the positions which equal to true
+/*Returns an array of all the positions which equal to true. 
+If none does, it returns an empty array-*/
 
 Array.prototype.positions=function(callback){
     var answer=[]
@@ -12,5 +13,5 @@ Array.prototype.positions=function(callback){
     return answer;
 }
 
-var x=[20,21,22,23,24,25,26,27,28,29].positions(function(e){return e%3===0})
-console.log(x)
+// var x=[20,21,22,23,24,25,26,27,28,29].positions(function(e){return e%30===0})
+// console.log(x)

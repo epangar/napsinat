@@ -8,5 +8,5 @@ Array.prototype.toAll=function(callback){
   return answer
 }
 
-var x=[1,2,3,4,5].toAll(function(e){return e+3})
-console.log(x)
+// var x=[1,2,3,4,5].toAll(function(e){return e+3})
+// console.log(x)
