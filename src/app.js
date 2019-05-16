@@ -85,5 +85,3 @@ var unicode = require("./Methods/String/unicode/unicode");
 class Napsinat{}
 
 Napsinat.export = Napsinat;
-
-
