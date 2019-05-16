@@ -10,5 +10,5 @@ Array.prototype.findIndex=function(callback){
     return []
 }
 
-var x=[20,21,22,23,24,25,26,27,28,29].findIndex(function(e){return e%30===0})
+var x=[20,21,22,23,24,25,26,27,28,29].findIndex(function(e){return (e%3===0 && e%2===0)})
 console.log(x)
