@@ -11,4 +11,4 @@ Math.bases=function(number){
 
 }
 
-console.log(Math.bases(4))
+console.log(Math.bases(8))

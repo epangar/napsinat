@@ -13,5 +13,3 @@ Array.prototype.eachUntil=function(callback){
   }
 }
 
-var x=[1,2,3,4,5,6,7,8,9].eachUntil(function(element){return element%3==0})
-console.log(x)

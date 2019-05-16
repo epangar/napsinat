@@ -24,4 +24,4 @@ Math.isPrime = function (n) {
   }
 };
 
-console.log(Math.isPrime(8))
+// console.log(Math.isPrime(8))

@@ -1,5 +1,6 @@
-import Napsinat from  './app'
+const Napsinat =require("./app")  
 
+console.log(Napsinat)
 
 console.log([4,5,6,7].drop(2))
 console.log([1,2,3,4,5].first())

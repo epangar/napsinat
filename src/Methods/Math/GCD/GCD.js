@@ -35,6 +35,5 @@ Math.GCD=function(input){
     }
 }
 
-var n=Math.GCD([30,15,3000,900])
-console.log(n)
+
 

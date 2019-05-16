@@ -22,5 +22,5 @@ Number.prototype.isPrime = function() {
   }
 };
 
-n=new Number(89)
-console.log(n.isPrime(10))
+// n=new Number(89)
+// console.log(n.isPrime(10))

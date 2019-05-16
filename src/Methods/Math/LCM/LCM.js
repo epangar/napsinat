@@ -8,7 +8,7 @@ Math.LCM=function(array){
 
     while(answer.length<array.length){
       var multiple=first*multiplier;
-      debugger
+      
       for(var i=0;i<array.length;i++){
         if(multiple%array[i]!==0){
           answer=[];

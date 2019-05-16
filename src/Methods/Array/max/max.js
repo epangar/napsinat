@@ -6,4 +6,3 @@ Array.prototype.max=function(){
                     })[this.length-1]
 }
 
-console.log([9,6,5,4,3,8,7,6,5,1,3,2].max())
