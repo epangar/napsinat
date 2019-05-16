@@ -1,14 +1,12 @@
 Number.prototype.bases=function(){
-
+    var myNumber=Math.abs(this)
+    
     var bases=[2,8,10,16], obj = {};
-
-    for(i in bases){
-        var key=bases[i];
-        obj[key]=this.toString(key);
-    }
+    
+    bases.forEach(function(base){
+        obj[base]=myNumber.toString(base);
+    })
 
     return obj;
 
 }
-n=new Number(89)
-console.log(n.bases(10))

@@ -1,4 +1,5 @@
-//Returns the index of the first element which returns true for the condition
+/*Returns the index of the first element which returns true for the condition.
+If no elements mathces the condition, it returns an empty array.*/
 
 Array.prototype.findIndex=function(callback){
 
@@ -10,5 +11,5 @@ Array.prototype.findIndex=function(callback){
     return []
 }
 
-var x=[20,21,22,23,24,25,26,27,28,29].findIndex(function(e){return (e%3===0 && e%2===0)})
-console.log(x)
+// var x=[20].findIndex(function(e){return (e%3===0)})
+// console.log(x)

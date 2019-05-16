@@ -1,4 +1,5 @@
 Number.prototype.isPrime = function() {
+  
   var n = Math.abs(this);
   if (n < 2) {
     return false;
@@ -22,5 +23,5 @@ Number.prototype.isPrime = function() {
   }
 };
 
-// n=new Number(89)
-// console.log(n.isPrime(10))
+n=new Number(89)
+console.log(n.isPrime(10))
