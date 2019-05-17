@@ -13,6 +13,7 @@ Built in methods
 TO DEVELOP
 LCM
 GCD
+Matrix
 ---------
 TO DOCUMENT
 
