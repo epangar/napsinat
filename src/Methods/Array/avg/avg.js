@@ -10,5 +10,3 @@ Array.prototype.avg = function () {
     }
 };
 
-
-// export default avg
