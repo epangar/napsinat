@@ -34,8 +34,8 @@ var positions = require("./Methods/Array/positions/positions");
 var rand = require("./Methods/Array/rand/rand");
 var reduceRight = require("./Methods/Array/reduceRight/reduceRight");
 var sample = require("./Methods/Array/sample/sample");
-var shuffle = require("./Methods/Array/shuffle/shuffle");
-var size = require("./Methods/Array/size/size");
+var arrayShuffle = require("./Methods/Array/shuffle/shuffle");
+var arraySize = require("./Methods/Array/size/size");
 var toAll = require("./Methods/Array/toAll/toAll");
 var truthy = require("./Methods/Array/truthy/truthy");
 var unique = require("./Methods/Array/unique/unique");
@@ -77,12 +77,12 @@ var rangeSum = require("./Methods/Math/rangeSum/rangeSum");
 
 //Number methods
 
-var bases = require("./Methods/Number/bases/bases");
+var Numberbases = require("./Methods/Number/bases/bases");
 var isPrime = require("./Methods/Number/isPrime/isPrime");
 
 //Object methods
 
-var size= require("./Methods/Object/size/size");
+var objectSize= require("./Methods/Object/size/size");
 
 //String methods
 
@@ -92,8 +92,8 @@ var first = require("./Methods/String/first/first");
 var isAlpha = require("./Methods/String/isAlpha/isAlpha");
 var jargon = require("./Methods/String/jargon/jargon");
 var last = require("./Methods/String/last/last");
-var shuffle = require("./Methods/String/shuffle/shuffle");
-var size = require("./Methods/String/size/size");
+var stringShuffle = require("./Methods/String/shuffle/shuffle");
+var stringSize = require("./Methods/String/size/size");
 var unicode = require("./Methods/String/unicode/unicode");
 
 
