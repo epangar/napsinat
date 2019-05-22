@@ -18,6 +18,7 @@ var Triangle = require("./Class/Triangle/Triangle");
 //Array methods
 
 var avg = require("./Methods/Array/avg/avg");
+
 var dictIndex = require("./Methods/Array/dictIndex/dictIndex");
 var drop = require("./Methods/Array/drop/drop");
 var dropEnd = require("./Methods/Array/dropEnd/dropEnd");
