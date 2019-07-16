@@ -19,7 +19,7 @@
   "homepage": "https://github.com/epangar/napsinat#readme",
   "devDependencies": {},
   "dependencies": {
-    "lodash": "^4.17.11",
+    "lodash": "^4.17.13",
     "underscore": "^1.9.1"
   }
 }
