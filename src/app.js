@@ -1,19 +1,19 @@
 
 //Classes
-var Circle = require("./Class/Circle/Circle");
-var Cone = require("./Class/Cone/Cone");
-var Cube = require("./Class/Cube/Cube");
-var Cylinder = require("./Class/Cylinder/Cylinder");
-var Jargon = require("./Class/Jargon/Jargon");
-var Pentagon = require("./Class/Pentagon/Pentagon");
-var Polygon = require("./Class/Polygon/Polygon");
-var Prism = require("./Class/Prism/Prism");
-var Rectangle = require("./Class/Rectangle/Rectangle");
-var Semicircle = require("./Class/Semicircle/Semicircle");
-var Sphere = require("./Class/Sphere/Sphere");
-var Square = require("./Class/Square/Square");
-var Tetrahedron = require("./Class/Tetrahedron/Tetrahedron");
-var Triangle = require("./Class/Triangle/Triangle");
+var Circle = require("./Classes/Circle/Circle");
+var Cone = require("./Classes/Cone/Cone");
+var Cube = require("./Classes/Cube/Cube");
+var Cylinder = require("./Classes/Cylinder/Cylinder");
+var Jargon = require("./Classes/Jargon/Jargon");
+var Pentagon = require("./Classes/Pentagon/Pentagon");
+var Polygon = require("./Classes/Polygon/Polygon");
+var Prism = require("./Classes/Prism/Prism");
+var Rectangle = require("./Classes/Rectangle/Rectangle");
+var Semicircle = require("./Classes/Semicircle/Semicircle");
+var Sphere = require("./Classes/Sphere/Sphere");
+var Square = require("./Classes/Square/Square");
+var Tetrahedron = require("./Classes/Tetrahedron/Tetrahedron");
+var Triangle = require("./Classes/Triangle/Triangle");
 
 //Array methods
 
