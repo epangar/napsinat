@@ -34,6 +34,10 @@ describe('Test the behaviour of Array.prototype.unique()', function() {
   
 });
 
+
+//Math.methods
+
+
 //Math.base()
 describe('Test the behaviour of Math.base()',function(){
   it('should return 0 when given no arguments', function() {
