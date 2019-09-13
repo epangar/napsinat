@@ -1,4 +1,4 @@
-//Applies a function to all the elemnts of an array and return a new array
+//Applies a function to all the elements of an array and return a new array
 
 Array.prototype.toAll=function(callback){
   var answer=[]

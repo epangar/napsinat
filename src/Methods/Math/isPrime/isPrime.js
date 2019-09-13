@@ -23,5 +23,3 @@ Math.isPrime = function (n) {
     return true;
   }
 };
-
-// console.log(Math.isPrime(8))

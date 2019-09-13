@@ -1,10 +1,12 @@
 
 //Classes
 var Circle = require("./Classes/Circle/Circle");
+var Coin = require("./Classes/Coin/Coin");
 var Cone = require("./Classes/Cone/Cone");
 var Cube = require("./Classes/Cube/Cube");
 var Cylinder = require("./Classes/Cylinder/Cylinder");
 var Jargon = require("./Classes/Jargon/Jargon");
+var Matrix = require("./Classes/Matrix/Matrix");
 var Pentagon = require("./Classes/Pentagon/Pentagon");
 var Polygon = require("./Classes/Polygon/Polygon");
 var Prism = require("./Classes/Prism/Prism");
@@ -18,7 +20,6 @@ var Triangle = require("./Classes/Triangle/Triangle");
 //Array methods
 
 var avg = require("./Methods/Array/avg/avg");
-
 var dictIndex = require("./Methods/Array/dictIndex/dictIndex");
 var drop = require("./Methods/Array/drop/drop");
 var dropEnd = require("./Methods/Array/dropEnd/dropEnd");
@@ -30,6 +31,7 @@ var last = require("./Methods/Array/last/last");
 var max = require("./Methods/Array/max/max");
 var min = require("./Methods/Array/min/min");
 var partition = require("./Methods/Array/partition/partition");
+var pos = require("./Methods/Array/pos/pos");
 var positions = require("./Methods/Array/positions/positions");
 var rand = require("./Methods/Array/rand/rand");
 var reduceRight = require("./Methods/Array/reduceRight/reduceRight");
@@ -50,6 +52,7 @@ var bin = require("./Methods/Math/bin/bin");
 var celsius = require("./Methods/Math/celsius/celsius");
 var circleArea = require("./Methods/Math/circleArea/circleArea");
 var circlePeri = require("./Methods/Math/circlePeri/circlePeri");
+var coin = require("./Methods/Math/coin/coin");
 var dice = require("./Methods/Math/dice/dice");
 var digits = require("./Methods/Math/digits/digits");
 var divisors = require("./Methods/Math/divisors/divisors");

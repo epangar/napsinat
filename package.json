@@ -4,7 +4,7 @@
   "description": "",
   "main": "index.js",
   "scripts": {
-    "test": "bash -c 'mocha && protector'"
+    "test": "mocha ./test"
   },
   "repository": {
     "type": "git",
@@ -19,7 +19,9 @@
   "homepage": "https://github.com/epangar/napsinat#readme",
   "devDependencies": {},
   "dependencies": {
+    "chai": "^4.2.0",
     "lodash": "^4.17.14",
+    "mocha": "^6.2.0",
     "underscore": "^1.9.1"
   }
 }

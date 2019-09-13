@@ -1,4 +1,4 @@
-const Napsinat =require("./app")  
+const Napsinat =require("./napsinat")  
 
 console.log(Napsinat)
 
