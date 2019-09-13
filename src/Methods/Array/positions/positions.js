@@ -2,7 +2,7 @@
 If none does, it returns an empty array-*/
 
 Array.prototype.positions=function(callback){
-    var answer=[]
+    var answer
 
     for(i=0; i<this.length;i++){
         if(callback(this[i])===true){
