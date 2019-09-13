@@ -11,5 +11,3 @@ Array.prototype.findIndex=function(callback){
     return []
 }
 
-// var x=[20].findIndex(function(e){return (e%3===0)})
-// console.log(x)

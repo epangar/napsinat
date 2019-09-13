@@ -1,5 +1,5 @@
 //Converts a number to binary
 
-Math.base=function(n){
-  return n.toString(2)
+Math.bin=function(n){
+  return !n ? 0 : n.toString(2)
 }

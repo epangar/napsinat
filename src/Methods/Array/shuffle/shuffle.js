@@ -15,7 +15,4 @@ Array.prototype.shuffle = function(){
     return answer.map(function(element){
       return arr[element]
       });
-}
-
-var x=[1,2,3,4,5,6,7,8]
-console.log(x.shuffle())
+};

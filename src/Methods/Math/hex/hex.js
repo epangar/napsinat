@@ -1,5 +1,5 @@
 //Converts a number to hexadecimal
 
-Math.base=function(n){
+Math.hex=function(n){
   return n.toString(16)
 }

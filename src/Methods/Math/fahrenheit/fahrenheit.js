@@ -3,5 +3,3 @@
 Math.fahrenheit=function(celsius){
     return (celsius*(9/5))+32
 }
-
-console.log(Math.fahrenheit(100))
