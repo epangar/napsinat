@@ -14,6 +14,7 @@ TO DEVELOP
 LCM
 GCD
 Matrix
+Class Prism
 ---------
 TO DOCUMENT
 

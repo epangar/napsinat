@@ -1,3 +1,3 @@
-Math.coin()=function(){
+Math.coin=function(){
     return Math.random() >= 0.5;
 }
