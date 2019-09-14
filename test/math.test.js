@@ -6,8 +6,6 @@ var napsinat = require('../src/napsinat');
 
 //Math.base()
 describe('Test the behaviour of Math.base()',function(){
-  expect('n').to.be.a('number');
-  expect('b').to.be.a('number');
   it('should return 0 when given no arguments', function() {
     assert.deepEqual(Math.base(), 0);
   });
