@@ -3,13 +3,6 @@ var should = require('chai').should();
 var assert = require('assert');
 var napsinat = require('../src/napsinat');
 
-/*Classes*/
-
-
-/*Methods*/
-
-//Array Methods
-
 
 //Array.prototype.unique()
 describe('Test the behaviour of Array.prototype.unique()', function() {
@@ -31,27 +24,11 @@ describe('Test the behaviour of Array.prototype.unique()', function() {
     assert.deepEqual([1,2,"a",1,2,"a",1,2,"G",1,2,2,2,2,5,"G",77,77,1,77,77].unique()[4], 5);
     assert.deepEqual([1,2,"a",1,2,"a",1,2,"G",1,2,2,2,2,5,"G",77,77,1,77,77].unique()[5], 77);
   });
+
   
 });
 
 
-//Math.methods
 
-
-//Math.base()
-describe('Test the behaviour of Math.base()',function(){
-  it('should return 0 when given no arguments', function() {
-    assert.deepEqual(Math.base(), 0);
-  });
-  it('should return the number when given the number but no base', function() {
-    assert.deepEqual(Math.base(5,), 5);
-  });
-  it('should return a binary when given Math.base(n,2) ', function() {
-    assert.deepEqual(Math.base(1,2), "1");
-    assert.deepEqual(Math.base(4,2), "100");
-    assert.deepEqual(Math.base(10,2), "1010");
-  });
-
-})
 
 
