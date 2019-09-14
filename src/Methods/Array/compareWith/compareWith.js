@@ -29,11 +29,3 @@ Array.prototype.compareWith = function (input, deeply) {
     }
 
 }
-
-console.log([1, 2, 3, 4, 5].compareWith([2, 1, 3, 4, 5]))
-console.log([1, 2, 3, 4, 5].compareWith([1, 2, 3, 4, 5], true))
-console.log([1, 2, 3, 4, 5].compareWith([2, 1, 3, 4, 5], false))
-console.log([1, 2, 3, 4, 5].compareWith([11, 2, 3, 4, 5]))
-console.log([1, 2, 3, 4, 5].compareWith([2, 1, 3, 4, 5]), "holii")
-console.log([1, 2, 3, 4, 5].compareWith([11, 2, 3, 4, 5], true))
-console.log([1, 2, 3, 4, 5].compareWith([11, 2, 3, 4, 5], false))
