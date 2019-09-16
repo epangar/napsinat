@@ -13,3 +13,4 @@ Math.bases=function(number){
 
 }
 
+console.log(Math.bases(60))

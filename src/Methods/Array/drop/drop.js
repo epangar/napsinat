@@ -2,5 +2,4 @@
 
 Array.prototype.drop = function(n){
   return this.slice(n, this.length);
-}
-
+};
