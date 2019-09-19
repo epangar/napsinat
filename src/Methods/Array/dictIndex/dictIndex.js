@@ -14,4 +14,4 @@ Array.prototype.dictIndex=function(){
   }
   return answer
 
-}
+};

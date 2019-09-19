@@ -3,9 +3,11 @@ var should = require('chai').should();
 var assert = require('assert');
 var napsinat = require('../src/napsinat');
 
+
+
 var _ = this;
 
-//Array.protoype.avg()
+//Array.prototype.avg()
 describe('Test the behaviour of Array.prototype.avg()', function(){
   it('should return the average of the elements of an array', function(){
     assert.deepEqual([1,2,3].avg(), 2);
@@ -15,6 +17,13 @@ describe('Test the behaviour of Array.prototype.avg()', function(){
   })
   it('should return 0 for an empty array', function(){
     assert.deepEqual([].avg(), 0);
+  })
+})
+
+//Array.prototype.dictIndex()
+describe('Test the behaviour of Array.prototype.dictIndex()', function(){
+  it('should return an object', function(){
+    // return expect(Array.prototype.dictIndex()).to.eventually.be.a('object');
   })
 })
 
