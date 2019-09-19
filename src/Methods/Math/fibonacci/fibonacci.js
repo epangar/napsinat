@@ -1,6 +1,6 @@
 //Returns a Fibonacci series 
 
-Math.fibonacci = function (first, second, total) {
+Math.fibonacci = function (first=0, second=1, total=10) {
   var arr = [first, second];
 
 
