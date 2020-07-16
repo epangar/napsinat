@@ -20,7 +20,7 @@
   "devDependencies": {},
   "dependencies": {
     "chai": "^4.2.0",
-    "lodash": "^4.17.14",
+    "lodash": "^4.17.19",
     "mocha": "^6.2.0",
     "underscore": "^1.9.1"
   }
